@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(./waterfall.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 60%;
+    height: 250px;
+    background-color: #FFF;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+    opacity: 0.8;
+}
+
+#timer{
+    width: 100%;
+    text-align: center;
+    font-size: 72px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.buttons{
+    background-color: rgb(197, 182, 182);
+    text-align: center;
+    font-size: 4rem;
+}
